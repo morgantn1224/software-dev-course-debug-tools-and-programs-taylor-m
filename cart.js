@@ -40,3 +40,6 @@ const receipt = generateReceipt(cart, discountedTotal);
 
 document.getElementById("total").textContent = `Total: $${discountedTotal}`;
 document.getElementById("receipt").textContent = receipt;
+//degugging tool helped with the use of it's debugger and breakpoints.
+//They let me right to the line that had issues as I walked through the
+//system calls.
